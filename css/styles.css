@@ -313,6 +313,14 @@ p { margin: 0 0 1rem; }
   padding: 0;
 }
 
+.hero-card a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero-card a:hover strong { text-decoration: underline; }
+
 .hero-card li {
   padding: 16px 0;
   border-top: 1px solid var(--line);
@@ -865,9 +873,7 @@ textarea { min-height: 140px; resize: vertical; }
 
   .span-2 { grid-column: auto; }
 
-  .hero-card { display: none; }
-
-  .hero-grid { padding: 48px 0 28px; gap: 0; }
+  .hero-grid { padding: 48px 0 28px; gap: 28px; }
 
   .hero h1 { max-width: 11ch; }
 
