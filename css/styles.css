@@ -249,10 +249,7 @@ p { margin: 0 0 1rem; }
 .hero :is(h1, h2) { color: white; }
 
 .hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
-  gap: 56px;
-  align-items: center;
+  display: block;
   padding: 84px 0 36px;
 }
 
